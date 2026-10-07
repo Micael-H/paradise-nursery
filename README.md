@@ -2,6 +2,9 @@
 
 Front-end de uma loja de plantas domésticas criado para o projeto final do curso. O aplicativo oferece página inicial, catálogo com 18 plantas em três categorias e carrinho de compras interativo.
 
+- **Aplicativo publicado:** https://micael-h.github.io/paradise-nursery/
+- **Repositório público:** https://github.com/Micael-H/paradise-nursery
+
 ## Funcionalidades
 
 - Página inicial com imagem de fundo, apresentação da empresa e botão **Get Started**.
@@ -30,16 +33,16 @@ npm run build
 npm run preview
 ```
 
-## Publicar no GitHub Pages
+## Atualizar o GitHub Pages
 
-Crie um repositório público para **esta pasta**, configure o remoto Git e envie o código. Depois, dentro desta pasta, execute:
+Depois de alterar o aplicativo, envie o código para a branch `main` e, dentro desta pasta, execute:
 
 ```bash
 npm install
 npm run deploy
 ```
 
-Nas configurações do repositório no GitHub, em **Pages**, escolha **Deploy from a branch**, selecione `gh-pages` e a pasta `/ (root)`. A opção `base: './'` do Vite e o HashRouter permitem que as rotas funcionem no endereço do Pages.
+O GitHub Pages está configurado para publicar a branch `gh-pages` na pasta `/ (root)`. A opção `base: './'` do Vite e o HashRouter permitem que as rotas funcionem no endereço publicado.
 
 ## Arquivos principais da avaliação
 
